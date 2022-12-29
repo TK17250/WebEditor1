@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "IBMPlexSansThai-Medium.woff2";
+    src: url("bootstrap-5.2.3-dist/font/IBMPlexSansThai/WOFF2/IBMPlexSansThai-Medium.woff2");
+}
+
+body,html {
+    padding: 0;
+    margin: 0;
+    font-family: "IBMPlexSansThai-Medium.woff2";
+    background-color: gray;
+    animation: body 1s;
+}
+
+/*         Box           */
+
+#Box {
+    width: 80%;
+    display: block;
+    margin: auto;
+    box-shadow: 0px 0px 50px white;
+    border-radius: 20px;
+    background-color: white;
+}
+
+/*       BAnner           */
+
+#Banner {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner {
+    width: 100%;
+}
+
+.MQ {
+    padding: 5px;
+    border: 1px solid black;
+    margin: auto;
+    display: block;
+    width: 60%;
+    border-radius: 20px;
+    color: white;
+    background-color: #805da6;
+    text-shadow: 2px 2px 8px black;
+}
+
+/*            Menu               */
+
+.text-menu {
+    text-decoration: none;
+    color: black;
+}
+
+.img-menu {
+    width: 140px;
+    height: 90px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px black;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.a-menu {
+    width: 140px;
+    height: 90px;
+    margin: auto;
+    display: block;
+}
+
+.video {
+    width: 80%;
+    display: block;
+    margin: auto;
+    box-shadow: 2px 2px 8px black;
+    transition: box-shadow 0.5s;
+}
+
+/*               Body                  */
+
+.img-body {
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px black;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.top-b {
+    color:  black;
+    text-shadow: 2px 2px 8px rgb(255, 58, 255);
+}
+
+/*           BF            */
+
+#BF {
+    background-color: rgb(65, 64, 64);
+    padding: 10px;
+    position: relative;
+}
+
+.top-m {
+    color: white;
+    text-shadow: 2px 2px 8px rgb(255, 58, 255);
+}
+
+.li-a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 8px black;
+}
+
+li {
+    list-style: none;
+}
+
+.BT {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+/*         Footer          */ 
+
+footer {
+    background-color: black;
+    padding: 20px;
+}
+
+.text-footer {
+    color: white;
+    text-align: center;
+}
+
+/*           AD           */  
+
+.img-AD {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: auto;
+    display: block;
+    box-shadow: 2px 2px 8px black;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.m {
+    text-decoration: none;
+    color: black;
+}
+
+/*           Hover           */
+
+.img-AD:hover,.img-body:hover,.img-menu:hover {
+    transform: scale(1.03,1.03);
+    box-shadow: 0px 0px 20px rgb(94, 15, 168);
+}
+
+.video:hover {
+    box-shadow: 0px 0px 20px rgb(94, 15, 168);
+}
+
+/*             Keyframe            */
+
+@keyframes body {
+    0% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
